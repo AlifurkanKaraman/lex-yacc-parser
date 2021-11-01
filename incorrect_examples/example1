@@ -1,0 +1,4 @@
+START
+
+! syntax error, because we must assign our variable in MAIN stage !
+INT a := 5;

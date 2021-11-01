@@ -1,0 +1,9 @@
+START
+
+INT a;
+NOT_INT d;
+
+MAIN
+
+! syntax error, assignement symbol is ":=" !
+a = 5;

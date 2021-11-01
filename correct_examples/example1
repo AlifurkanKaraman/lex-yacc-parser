@@ -1,0 +1,20 @@
+START
+INT a;
+NOT_INT b;
+CHR c;
+
+MAIN
+a := INPUT;
+b := INPUT;
+c := 'a';
+
+OUTPUT c;
+
+=> ( a > b )
+        b := a;
+        FINISH
+=! 
+        a := b;
+        OUTPUT a;
+        FINISH
+END

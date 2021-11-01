@@ -1,0 +1,19 @@
+START
+INT x;
+INT y;
+CHR equal;
+
+MAIN
+x := INPUT;
+y := INPUT;
+
+=> ( x = y )
+    equal := 'e';
+    OUTPUT equal;
+    TERMINATE;
+    FINISH
+
+equal := 'n';
+OUTPUT equal;
+
+END

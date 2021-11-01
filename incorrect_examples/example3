@@ -1,0 +1,10 @@
+START
+
+INT x;
+
+MAIN
+
+x := 5;
+
+! syntax error, because each statement must end with ';' symbol !
+OUTPUT x

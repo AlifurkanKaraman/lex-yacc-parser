@@ -1,0 +1,19 @@
+START
+INT a;
+INT b;
+INT sum;
+
+MAIN
+a := 1;
+b := 10;
+
+OUTPUT a + b;
+
+
+{ a < b }
+    a := a + 1;
+    sum := sum * a;
+    OUTPUT sum;
+    FINISH
+
+END
