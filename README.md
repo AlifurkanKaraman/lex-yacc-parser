@@ -1,5 +1,6 @@
 # lex-yacc-parser
 First lab for Programming Language Concepts subject
+
 A syntax analyzer for mpl(my programming language) using Lex & YACC.
 
 This analyzer does not bargain with semantics. Its objective is constrained with syntax as it were.
